@@ -10,6 +10,7 @@
     <!doctype html>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/utils.css">
+    <script src="/localstorage.js"></script>
     
 
 
@@ -189,7 +190,7 @@
                 </div>
             </section>
             <div  text-align="center" id="parent" class="form">
-                <form class="light-bg flex" id="donate">
+                <form  class="light-bg flex" id="donate">
                     <fieldset class="center">
                        
                         <h1><u>Registeration Form</u></h1>
@@ -209,7 +210,7 @@
                             Middlename:
                         </label>
                         <input class="center" type="text" id="middlename" name="mname" placeholder="Middlename" size="15"
-                            required />
+                             />
                         <br><br>
                         <label for="lastname">
                             Lastname:
@@ -251,7 +252,7 @@
                         </select>
                         <input class="center" type="file" id="img" name="img" accept="file/*"><br><br>
                          <div class="sr">
-                        <button type="submit" value="submit">Submit</button>
+                        <button type="submit" onclick="saveData()" id="saveBtn"value="submit">Submit</button>
                          
                         <button  type="reset" value="submit">Reset</button></div>
                     </fieldset>
