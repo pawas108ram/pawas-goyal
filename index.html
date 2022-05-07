@@ -34,7 +34,7 @@
             <li><a href="/donate.html">DONATE/VOLUNTEER</a></li>
             
             <li><a href="/about.html">ABOUT US</a></li>
-            <li><a href="/contact.html">CONTACT</a></li>
+           
         </ul>
     </nav>
         </div>
@@ -168,9 +168,9 @@
                         51.4% women in the reproductive age (15-49 years) are anaemic <br>
                     </p>
                 </div>
-            </section>
-            <div  text-align="center" id="parent" class="form" name="google-sheet">
-                <form   method="post"class="light-bg flex" id="donate">
+            </section> 
+            <div  text-align="center" id="parent" class="form">
+                <form  method="POST"class="light-bg flex" id="donate" name="google-sheet">
                     <fieldset class="center">
                        
                         <h1><u>Registeration Form</u></h1>
@@ -190,7 +190,7 @@
                             Middlename:
                         </label>
                         <input class="center" type="text" id="middlename" name="mname" placeholder="Middlename" size="15"
-                             />
+                            required />
                         <br><br>
                         <label for="lastname">
                             Lastname:
@@ -232,13 +232,15 @@
                         </select>
                         <input class="center" type="file" id="img" name="img" accept="file/*"><br><br>
                          <div class="sr">
-                        <button type="submit" name="submit" id="saveBtn"value="submit">Submit</button>
+                        <button type="submit" value="submit">Submit</button>
                          
                         <button  type="reset" value="submit">Reset</button></div>
                     </fieldset>
                 </form>
-                
-                    
+                        
+            </div>
+            
+   
               
         </main>
         <script>

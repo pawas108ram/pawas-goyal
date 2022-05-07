@@ -1,0 +1,39 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+main{
+    background-color: rgba(216, 181, 73, 0.79);
+    background-repeat: none;
+    background-size: cover;
+}
+h1{
+    text-align:center;
+    font-family: 'Baloo Bhai 2', cursive;
+font-family: 'Koulen', cursive;
+font-family: 'Open Sans', sans-serif;
+    text-decoration:  3px underline ;
+    font-size:xx-large;
+    font-weight: 900;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+.medium{
+      display: block;
+      height: 450px;
+  }
+  .main {
+    margin: auto;
+    width: 400px;
+}
+p{
+    font-family: 'Nunito', sans-serif;
+    font-size: medium;
+    font-weight: 500;
+}
+div.img{
+    border:2px solid white;
+}
