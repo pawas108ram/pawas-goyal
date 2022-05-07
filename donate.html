@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body><div  text-align="center" id="parent" class="form">
+    <form class="light-bg flex" id="donate">
+        <fieldset class="center">
+           
+            <h1><u>Registeration Form</u></h1>
+            <label for="Organization">
+                Name of Organization / Individual:
+            </label>
+            <input class="center " type="text" id="Organization" name="org"
+                placeholder="Name of Organization / Individual" size="50" required />
+            <br><br>
+            <label for="firstname">
+                Firstname:
+            </label>
+            <input class="center" type="text" id="firstname" name="ftname" placeholder="Firstname" size="15"
+                required />
+            <br><br>
+            <label for="middlename">
+                Middlename:
+            </label>
+            <input class="center" type="text" id="middlename" name="mname" placeholder="Middlename" size="15"
+                required />
+            <br><br>
+            <label for="lastname">
+                Lastname:
+            </label>
+            <input class="center" type="text" id="lastname" name="ltname" placeholder="Lastname" size="15"
+                required />
+            <br><br>
+            <label for="Phone">
+                Phone:
+            </label>
+
+            <input class="center" type="text" id="Phone" name="phone" placeholder="phone no." size="10" /
+                required>
+            <br><br>
+            <label for="email">
+                Email:
+            </label>
+            <input class="center" type="text" id="email" placeholder="Enter Email" name="email" required>
+            <br><br>
+            <label for="psw">
+                Password:
+            </label>
+            <input class="center" type="password" placeholder="Create Password" name="psw" required>
+            <br><br>
+            <label for="address">
+                Enter Address:
+            </label>
+            <textarea class="center" id="address" rows="4" cols="50" name="address" form=""
+                placeholder="Enter Address for pickup.."></textarea><br><br>
+            <label for="id_proof">
+                Verification:
+            </label>
+            <select class="center" name="id_proof" id="id_proof">
+                <option value="def">Select Id Proof</option>
+                <option value="aadhar">Aadhar Card</option>
+                <option value="pass">Passport</option>
+                <option value="pan">Pan Card</option>
+                <option value="dl">Driving License</option>
+            </select>
+            <input class="center" type="file" id="img" name="img" accept="file/*"><br><br>
+             <div class="sr">
+            <button type="submit" value="submit">Submit</button>
+             
+            <button  type="reset" value="submit">Reset</button></div>
+        </fieldset>
+    </form>
+            
+</div>
+</body>
+</html>
