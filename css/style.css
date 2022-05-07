@@ -1,0 +1,23 @@
+*{
+    margin: 0;padding: 0;box-sizing:border-box;
+}
+body{
+    background-color:rgba(245, 245, 245, 0.73);
+}
+div.green{
+    background-color:lightgreen;
+    color:gainsboro;
+
+}
+white-bg{
+    background:rgba(0, 0, 0, 0.321);
+    color:white;
+}
+button{
+padding:3px 5px;
+border:2px solid black;
+background-color: lightcoral;
+color:white;
+width:25px;
+height:12px;
+}

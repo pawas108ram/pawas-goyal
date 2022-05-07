@@ -1,0 +1,7 @@
+.flex{
+    display:flex;
+}
+img.small{
+    height:12vh;
+    padding:3px 4px;
+}
